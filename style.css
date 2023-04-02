@@ -1,0 +1,102 @@
+body {
+
+    background: #161616;
+    font-family: 'Gruppo', cursive;
+
+}
+
+.card-borda {
+
+    height: 75%;
+    width: 35%;
+    min-width: 250px;
+    min-height: 410px;
+    background: rgb(148,194,244);
+    background: linear-gradient(180deg, rgba(148,194,244,1) 0%, rgba(40,167,69,1) 100%);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 35px 15px rgba(0,0,0,0.45);
+    -moz-box-shadow: 0px 0px 35px 15px rgba(0,0,0,0.45);
+    box-shadow: 0px 0px 35px 15px rgba(0,0,0,0.45);
+
+}
+
+.card {
+
+    height: 99%;
+    width: 99%;
+    background: rgb(22,22,22);
+    background: linear-gradient(-90deg, rgba(22,22,22,1) 50%, rgba(32,32,32,1) 50%);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    padding: 3%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-conteudo {
+
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.texto {
+
+    color: #B2B2B2;
+
+}
+
+.foto-perfil {
+
+    border-radius: 50%;
+    width: 55%;
+    min-width: 140px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.botao-github {
+
+    background: #FFFFFF;
+
+}
+
+.botao-github:hover {
+
+    background: #C6C6C6;
+
+}
+
+.botao-linkedin {
+
+    background: #0A66C2;
+    color: #FFFFFF
+
+}
+
+.botao-linkedin:hover {
+
+    background: #0955A0;
+    color: #FFFFFF
+
+}
+
+.modal-dark {
+
+    background: rgb(32,32,32);
+    background: linear-gradient(0deg, rgba(32,32,32,1) 0%, rgba(22,22,22,1) 100%);
+
+}
+
